@@ -43,7 +43,57 @@ hr {
 
 /* Main Grid Styles */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    /* Fill in the appropriate grid areas here. */ ;
+}
 
+.grid__section {
+  border: 1px solid #333333;
+}
+
+.grid__section-1 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-2 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-3 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-4 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-5 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-6 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-7 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-8 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-9 {
+  grid-area: /* Fill this in. */ ;
+}
+
+.grid__section-10 {
+  grid-area: /* Fill this in. */ ;
+}
 
 /* Grid Section 1 - Flex Styles */
 
