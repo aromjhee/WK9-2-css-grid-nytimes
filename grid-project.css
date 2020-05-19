@@ -194,7 +194,54 @@ hr {
 
 /* Grid Section 3 Styles */
 
+.grid__item-3-1 {
+  grid-area: g3-1;
+  height: 200px;
+  
+}
 
+.grid__item-3-2 {
+  grid-area: g3-2;
+  height: 290px;
+}
+
+.grid__item-3-3 {
+  grid-area: g3-3;
+  height: 760px;
+}
+
+.grid__item-3-4 {
+  grid-area: g3-4;
+  height: 760px;
+}
+
+.grid__item-3-5 {
+  grid-area: g3-5;
+  height: 330px;
+}
+
+.grid__item-3-6 {
+  grid-area: g3-6;
+  height: 240px;
+}
+
+.grid__item-3-7 {
+  grid-area: g3-7;
+  height: 240px;
+}
+
+.grid__section-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "g3-1 g3-1"
+  "g3-2 g3-2"
+  "g3-3 g3-4"
+  "g3-5 g3-5"
+  "g3-6 g3-6"
+  "g3-7 g3-7";
+}
 
 /* Remaining Section Styles */
 
