@@ -245,7 +245,66 @@ hr {
 
 /* Remaining Section Styles */
 
+.grid__item-4-1 {
+  grid-area: g4-1; 
+}
 
+.grid__item-4-2 {
+  grid-area: g4-2; 
+}
+
+.grid__item-4-3 {
+  grid-area: g4-3; 
+}
+
+.grid__item-4-4 {
+  grid-area: g4-4; 
+}
+
+.grid__item-4-5 {
+  grid-area: g4-5; 
+}
+
+.grid__item-4-6 {
+  grid-area: g4-6; 
+}
+
+.grid__item-4-7 {
+  grid-area: g4-7; 
+}
+
+.grid__item-4-8 {
+  grid-area: g4-8; 
+}
+
+.grid__item-4-9 {
+  grid-area: g4-9; 
+}
+
+.grid__section-4 {
+  height: 590px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+  "g4-1 g4-1 g4-2 g4-2 g4-5"
+  "g4-1 g4-1 g4-2 g4-2 g4-6"
+  "g4-1 g4-1 g4-3 g4-3 g4-7"
+  "g4-1 g4-1 g4-3 g4-3 g4-8"
+  "g4-1 g4-1 g4-4 g4-4 g4-9"
+  "g4-1 g4-1 g4-4 g4-4 .";
+}
+
+.grid__section-5 {
+  height: 273px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.grid__section-5 div {
+  width: 20%;
+}
 
 /* Responsive Styles */
 
