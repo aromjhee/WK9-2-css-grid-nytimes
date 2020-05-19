@@ -48,7 +48,15 @@ hr {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    /* Fill in the appropriate grid areas here. */ ;
+    "header header"
+    "main sidebar"
+    "other-news other-news"
+    "smarter-living smarter-living"
+    "features features"
+    "discovery discovery"
+    "most-popular most-popular"
+    "news news"
+    "footer footer";
 }
 
 .grid__section {
